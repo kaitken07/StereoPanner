@@ -58,6 +58,7 @@ StereoPannerAudioProcessorEditor::~StereoPannerAudioProcessorEditor()
 
 void StereoPannerAudioProcessorEditor::timerCallback()
 {
+	
 }
 
 //==============================================================================
@@ -85,7 +86,7 @@ void StereoPannerAudioProcessorEditor::resized()
 
 //[MiscUserCode] You can add your own definitions of your custom methods or any other code here...
 void StereoPannerAudioProcessor::timerCallback()
-{ 
+{
 	//exchange any data you want between UI elements and the Plugin "ourProcessor"
 }
 //[/MiscUserCode]
